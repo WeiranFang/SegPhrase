@@ -1,6 +1,6 @@
 export PYTHON = pypy
 export CC  = gcc
-export CXX = g++
+export CXX = g++-4.8
 export CFLAGS = -std=c++11 -Wall -O3 -msse2  -fopenmp  -I..
 
 BIN = ./bin/from_raw_to_binary ./bin/from_raw_to_binary_text ./bin/feature_extraction ./bin/predict_quality ./bin/adjust_probability ./bin/recompute_features ./bin/prune_and_combine ./bin/build_model ./bin/qualify_unigrams ./bin/segphrase_parser ./bin/generateNN ./bin/combine_phrases
